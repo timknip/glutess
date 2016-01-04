@@ -12,6 +12,7 @@
     "glutess",
     "opengl"
   ],
+  "homepage": "https://github.com/timknip/glutess",
   "repository": {
     "type"  : "git",
     "url"   : "git+ssh://git@github.com:timknip/glutess.git"
