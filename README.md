@@ -20,7 +20,7 @@ npm install glutess
 ```
 or
 ```
-git clone git@github.com:floorplanner/glutess.git
+git clone git@github.com:timknip/glutess.git
 cd glutess
 npm install
 ```
