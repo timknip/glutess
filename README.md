@@ -66,7 +66,7 @@ gluTess.callback(glutess.COMBINE, function(c,v,w,n) {
 
 gluTess.property(glutess.WINDING_RULE, glutess.WINDING_NEGATIVE);
 
-// a clockwise polygon
+// a counter clockwise polygon
 var polyA = [
   [0,0,0],
   [0,10,0],
@@ -74,7 +74,7 @@ var polyA = [
   [10,0,0]
 ];
 
-// a counter clockwise polygon
+// a clockwise polygon
 var polyB = [
   [5,5,0],
   [15,5,0],
