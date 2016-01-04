@@ -2,6 +2,12 @@
 
 gluTessXXX bindings for node.js
 
+Tessellation is subdividing concave polygons or polygons with intersecting edges
+into convex polygons. Since OpenGL accepts only convex polygons for rendering,
+these non-convex polygons must be tessellated before rendering.
+
+![alt tag](http://screencast.com/t/I9NcNXYvj)
+
 ## Install
 
 ```
@@ -66,7 +72,7 @@ gluTess.callback(glutess.COMBINE, function(c,v,w,n) {
 
 gluTess.property(glutess.WINDING_RULE, glutess.WINDING_NEGATIVE);
 
-// a counter clockwise polygon
+// a clockwise polygon
 var polyA = [
   [0,0,0],
   [0,10,0],
@@ -74,7 +80,7 @@ var polyA = [
   [10,0,0]
 ];
 
-// a clockwise polygon
+// a counter clockwise polygon
 var polyB = [
   [5,5,0],
   [15,5,0],
