@@ -1,7 +1,7 @@
 {
   "name":         "glutess",
   "description":  "gluTessXXX bindings for node.js",
-  "version":      "0.2.2",
+  "version":      "0.2.3",
   "author":       "Tim Knip <tim@floorplanner.com>",
   "contributors": [
     "Sam Littlewood",
