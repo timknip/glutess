@@ -20,7 +20,7 @@ npm install
 var glutess = require('glutess');
 
 // Create a tesselator with vertexSize = 3
-var GluTess = new glutess.GluTess(3);
+var gluTess = new glutess.GluTess(3);
 
 // Push a value from 'n' back in array
 var pushPrev = function (v,n) {
@@ -56,7 +56,7 @@ gluTess.callback(glutess.VERTEX, function(a) {
 });
 gluTess.callback(glutess.END, function(c) {console.log('end')});
 gluTess.callback(glutess.ERROR, function() {console.log('error');});
-gluTess.callback(glutess.EDGE_FLAG, function() {console.log('edge_flag');}});
+gluTess.callback(glutess.EDGE_FLAG, function() {console.log('edge_flag');});
 gluTess.callback(glutess.COMBINE, function(c,v,w,n) {
   var r = new Array(n);
   for(var i=0; i < n; ++i)
@@ -104,4 +104,5 @@ for (i = 0; i < vertices.length; i += 3) {
   console.log(vertices[i+2]);
   console.log('--------');
 }
+
 ```
