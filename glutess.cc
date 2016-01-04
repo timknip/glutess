@@ -58,8 +58,6 @@ public:
   static void Initialize(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE exports);
   static void New(const Nan::FunctionCallbackInfo<v8::Value>& info);
 
-  static void testJSON(const Nan::FunctionCallbackInfo<v8::Value>& info);
-
   static void BeginPolygon(const Nan::FunctionCallbackInfo<v8::Value>& info);
   static void EndPolygon(const Nan::FunctionCallbackInfo<v8::Value>& info);
   static void BeginContour(const Nan::FunctionCallbackInfo<v8::Value>& info);
