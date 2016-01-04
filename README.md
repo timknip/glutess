@@ -6,7 +6,7 @@ Tessellation is subdividing concave polygons or polygons with intersecting edges
 into convex polygons. Since OpenGL accepts only convex polygons for rendering,
 these non-convex polygons must be tessellated before rendering.
 
-![alt tag](http://screencast.com/t/I9NcNXYvj)
+![alt tag](http://content.screencast.com/users/TimKnip/folders/Jing/media/c8d3e7e5-f4cd-42b6-92c0-7477309373c4/2016-01-04_1815.png "GluTess")
 
 ## Install
 
