@@ -1,0 +1,27 @@
+{
+  "name":         "glutess",
+  "description":  "gluTessXXX bindings for node.js",
+  "version":      "0.1.0",
+  "author":       "Tim Knip <tim@floorplanner.com>",
+  "contributors": [
+    "Sam Littlewood",
+    "Tim Knip <tim@floorplanner.com>"
+  ],
+  "keywords": [
+    "glu",
+    "glutess",
+    "opengl"
+  ],
+  "repository": {
+    "type"  : "git",
+    "url"   : "git+ssh://git@github.com:timknip/glutess.git"
+  },
+  "dependencies": {
+    "nan": "^2.1.0",
+    "bindings": "^1.2.1"
+  },
+  "license": "MIT",
+  "engines": {
+     "node": ">=0.8.0"
+  }
+}
