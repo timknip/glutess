@@ -8,6 +8,11 @@ these non-convex polygons must be tessellated before rendering.
 
 ![alt tag](http://content.screencast.com/users/TimKnip/folders/Jing/media/c8d3e7e5-f4cd-42b6-92c0-7477309373c4/2016-01-04_1815.png "GluTess")
 
+## Requirements
+
+1.  node >= 0.8.0
+2.  npm >= 1.4.1
+
 ## Install
 
 ```
