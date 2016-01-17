@@ -304,8 +304,8 @@ void GluTess::Callback(const Nan::FunctionCallbackInfo<v8::Value>& info) {
 void GluTess::Normal(const Nan::FunctionCallbackInfo<v8::Value>& info) {
   Nan::HandleScope scope;
 
-  if (info.Length() != 3 || !info[0]->IsNumber() || info[1]->IsNumber()  || info[2]->IsNumber())
-      Nan::ThrowError("3 numbers");
+  if (info.Length() != 3 || !info[0]->IsNumber() || !info[1]->IsNumber()  || !info[2]->IsNumber())
+    Nan::ThrowError("3 numbers");
 
   GluTess *self = Nan::ObjectWrap::Unwrap<GluTess>(info.This());
 
